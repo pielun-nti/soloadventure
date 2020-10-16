@@ -1,3 +1,1 @@
-# noderep
-# soloadventure
 # soloadventure
