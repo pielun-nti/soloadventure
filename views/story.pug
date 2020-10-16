@@ -1,0 +1,18 @@
+extends layout
+
+
+
+block content
+  main
+    .container      
+      if story[0]
+        .card
+        .card-body
+        p.card-text= story[0].body
+        h3 Välj ett alternativ
+        if links
+            each link in links
+              .card
+              .card-body
+              a(href='/story/' +link.target_id) #{link.description}
+              br
