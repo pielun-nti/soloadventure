@@ -4,8 +4,9 @@ var router = express.Router();
 /* GET home page. */
 /* GET home page. */
 router.get('/', function (req, res, next) {
+  res.redirect('/story/')
   // render view med data
-  res.render('index', { title: 'express',
+  /*res.render('index', { title: 'express',
    data: 'Data jag vill skicka till sidan' });
-});
+*/ });
 module.exports = router;

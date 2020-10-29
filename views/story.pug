@@ -9,10 +9,12 @@ block content
         .card
         .card-body
         p.card-text= story[0].body
+      if imgsrc
+        img(src=imgsrc alt="bild")
+      if links
         h3 Välj ett alternativ
-        if links
-            each link in links
-              .card
-              .card-body
-              a(href='/story/' +link.target_id) #{link.description}
-              br
+          each link in links
+            .card
+            .card-body
+            a(href='/story/' +link.target_id) #{link.description}
+            br

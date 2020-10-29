@@ -17,11 +17,21 @@ router.get('/:id', async function (req, res, next) {
     const links = await query(
       'SELECT * FROM links WHERE story_id = ?', req.params.id)
 
+      if (req.params.id == 1){
+        const imgsrc = "/images/red_riding_hood.jpg"
+        res.render('story', {
+          id: req.params.id,
+          story: story,
+          links: links,
+          imgsrc: imgsrc
+        });
+      }else{
     res.render('story', {
       id: req.params.id,
       story: story,
       links: links
     });
+  }
   } catch (e) {
     console.error(e);
     next(e);
