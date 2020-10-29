@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { query } = require('../config/db');
+const { query } = require('../models/db');
 
 router.get('/', function (req,res,next){
   res.redirect('/story/1')
