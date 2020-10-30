@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
+    "start": "nodemon ./bin/www",
     "compile": "sass --watch public/stylesheets/"
   },
   "dependencies": {
