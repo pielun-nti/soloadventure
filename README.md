@@ -26,10 +26,10 @@ Gör db dump igen om jag ändrat något (gjort)
 # Dokumentation
 Skiss, db dump finns i docs mappen. Planeringen finns över i denna readme där det står lite om vilka färger, typsnitt mm jag använde. Jag har ändrat en del i planeringen under arbetets gång.
 
-# validering
+# Validering
 Jag har validerat css med https://jigsaw.w3.org/css-validator/ och den visade inga fel. Jag visade page source på mitt solo adventure, kopierade html in i https://validator.w3.org/ och den visade en varning, 5 errors. Error 1: Element title must not be empty. Fixat. Error 2-5: Element div not allowed as child of element h3 in this context. Fixat. Validerat både css och html.
 
-# tester
+# Tester
 Jag har testat att klona mitt repo samt testat köra npm install, redigera config.env, importera databasen och sedan starta servern. Allt fungerar.
 
 # Reflektion
