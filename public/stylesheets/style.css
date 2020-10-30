@@ -2,14 +2,10 @@ html {
   height: 100%; }
 
 body {
-  background-color: white;
   height: 100%;
   display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   flex-direction: column; }
-
-p{
-  font-size: 1.5rem;
-}
 
 nav, main, footer {
   width: 80%;
@@ -20,12 +16,9 @@ footer {
 
 nav > ul {
   list-style: none;
-  font-size: 1.5rem;
   display: flex;
   padding: 0; }
   nav > ul > li {
     padding-right: 16px; }
-
-
 
 /*# sourceMappingURL=style.css.map */
