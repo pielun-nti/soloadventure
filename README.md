@@ -12,7 +12,7 @@ Redan gjort backend
 Gör färdigt frontend design, lägg till mer story om jag hinner
 <br />
 <br>
-Validera html, css
+Validera html, css (gjort)
 <br />
 <br>
 Gör dokumentation
