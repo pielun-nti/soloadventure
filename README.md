@@ -5,9 +5,7 @@ Baserat på sagan "Red Riding Hood".
 Spelet behöver innehålla en saga om Rödluvan. Spelaren är Rödluvan. Spelaren kan välja vad Rödluvan ska svara eller göra. Alla links samt storyn måste finnas i databasen i två olika kolumner. Sedan så måste det finnas en route för storyn som ansluter till databasen och hämtar storyn och links utifrån req.params.id och anslutningen till mysql görs via modellen db. Det måste fungera så att man kan välja alternativ så kommer man till en ny (oftast) annorlunda fortsättningen på sagan beroende på vilket alternativ spelaren väljer. Målgruppen för detta spel är barn och därför väljer jag att barnvänliga bilder, typsnitt och färger.
 Jag tycker att vit/grå bakgrund passar bra och att navigationen ska ha mörk bakgrund och vit text. Jag tycker även att knapparna ska ha samma färgtema som navigationen alltså mörk bakgrund och vit text. Jag valde "Georgia, 'Times New Roman', Times, serif" som font eftersom jag tyckte den jag tyckte den var lättläst och passade bra. Jag valde att använda både Bootstrap och CSS/sass för att slippa göra alla responsiva delarna och css delarna själv samt att jag tyckte det passade med både och.
 
-<br>
 Redan gjort backend
-<br />
 <br>
 Gör färdigt frontend design (gjort)
 <br />
@@ -15,13 +13,13 @@ Gör färdigt frontend design (gjort)
 Validera html, css (gjort)
 <br />
 <br>
-Gör dokumentation
+Gör dokumentation (gjort)
 <br/>
 <br>
-lägg till mer story om jag hinner
+lägg till mer story om jag hinner (gjort)
 </br>
 <br>
-Gör db dump igen om jag ändrat något
+Gör db dump igen om jag ändrat något (gjort)
 </br>
 
 
