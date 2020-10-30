@@ -3,9 +3,23 @@ html {
 
 body {
   height: 100%;
+  background-color: rgb(221, 215, 215) !important;
   display: flex;
   font-family: Georgia, 'Times New Roman', Times, serif;
   flex-direction: column; }
+
+  a.button {
+    color: white !important;
+    text-decoration: none;
+}
+
+p{
+  font-size: 1.1rem !important;
+}
+
+.footertext {
+  text-align: center !important;
+}
 
 nav, main, footer {
   width: 80%;
