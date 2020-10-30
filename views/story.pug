@@ -12,9 +12,7 @@ block content
       if imgsrc
         img(src=imgsrc alt="bild")
       if links
-        h3 Välj ett alternativ
+        h3.choose-alt Välj ett alternativ
         each link in links
-          .card
-          .card-body
           a(href='/story/' +link.target_id class="button btn btn-dark") #{link.description}
           br
