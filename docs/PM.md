@@ -34,7 +34,7 @@ Gör db dump igen om jag ändrat något (gjort)
 </br>
 
 # 1.2.2 Dokumentation
-Skiss, db dump och Post mortem finns i docs mappen. Planeringen finns här över där det står lite om vilka färger, typsnitt mm jag använde. Jag har ändrat en del i planeringen under arbetets gång.
+Skiss, drawio, db dump och Post mortem finns i docs mappen. Planeringen finns här över där det står lite om vilka färger, typsnitt mm jag använde. Jag har ändrat en del i planeringen under arbetets gång.
 
 # 1.2.3 Validering
 Jag har validerat css med https://jigsaw.w3.org/css-validator/ och den visade inga fel. Jag visade page source på mitt solo adventure, kopierade html in i https://validator.w3.org/ och den visade en varning, 5 errors. Error 1: Element title must not be empty. Fixat. Error 2-5: Element div not allowed as child of element h3 in this context. Fixat. Validerat både css och html.

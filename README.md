@@ -24,4 +24,4 @@ Gör db dump igen om jag ändrat något (gjort)
 
 
 # Dokumentation och Post Mortem
-Skiss, db dump och Post mortem mm finns i docs mappen. Planeringen finns över i denna readme där det står lite om vilka färger, typsnitt mm jag använde. Jag har ändrat en del i planeringen under arbetets gång.
+Skiss, drawio, db dump och Post mortem mm finns i docs mappen. Planeringen finns över i denna readme där det står lite om vilka färger, typsnitt mm jag använde. Jag har ändrat en del i planeringen under arbetets gång.
