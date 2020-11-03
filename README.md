@@ -1,4 +1,4 @@
-# soloadventure
+# Soloadventure
 Baserat på sagan "Red Riding Hood".
 
 # Planering
